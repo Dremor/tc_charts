@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/pidgin
   pullPolicy: IfNotPresent
-  tag: 2.14.9@sha256:3094622a1e2abd3bdabfe03a0160a354924905e99ab27416a50f3267f663ba5d
+  tag: 2.14.10@sha256:c7e106a3c2952ed6198e01dae8ca9cc53f9bdebfd2e2afe2971c80c1e6e62c6f
 
 securityContext:
   runAsNonRoot: false
