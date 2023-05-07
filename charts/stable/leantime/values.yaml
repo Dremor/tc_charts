@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/leantime
   pullPolicy: IfNotPresent
-  tag: 2.3.20@sha256:9deb8d1ce82747db28737522312e3f92a3834e0f22073bf9e4de73eb1fd8cc9a
+  tag: v2.3.21@sha256:184c5effc0870a0c64ad025c7c0bb3bf506272cb78581d1865b622045f417969
 
 securityContext:
   runAsNonRoot: false
