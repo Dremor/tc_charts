@@ -22,11 +22,12 @@ jobs:
         with:
           setup-tools: |
             helmv3
-          helm: "3.8.0"
+          helm: "3.9.4"
 
       - name: Prep Helm
         run: |
           helm repo add truecharts https://charts.truecharts.org
+          helm repo add truecharts-deps https://deps.truecharts.org
           helm repo add truecharts-library https://library-charts.truecharts.org
           helm repo add bitnami https://charts.bitnami.com/bitnami
           helm repo add prometheus https://prometheus-community.github.io/helm-charts
@@ -161,7 +162,7 @@ jobs:
         with:
           setup-tools: |
             helmv3
-          helm: "3.8.0"
+          helm: "3.9.4"
 
       - uses: actions/setup-python@57ded4d7d5e986d7296eab16560982c6dd7c923b # v4
         with:
