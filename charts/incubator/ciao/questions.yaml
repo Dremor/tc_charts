@@ -81,6 +81,7 @@ questions:
             type: string
             default: "sensitive_password"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -105,7 +106,6 @@ questions:
                               default: 8090
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

@@ -49,8 +49,8 @@ questions:
             required: true
             default: 600
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

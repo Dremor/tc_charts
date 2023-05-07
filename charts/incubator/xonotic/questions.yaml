@@ -39,6 +39,7 @@ questions:
             type: string
             default: "https://dl.xonotic.org/"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -63,7 +64,6 @@ questions:
                               default: 26000
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

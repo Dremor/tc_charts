@@ -21,7 +21,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/openbooks
   - https://github.com/evan-buss/openbooks
 type: application
-version: 0.0.3
+version: 0.0.4
 annotations:
   truecharts.org/catagories: |
     - media

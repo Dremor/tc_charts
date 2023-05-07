@@ -27,7 +27,7 @@ sources:
   - https://github.com/NginxProxyManager/nginx-proxy-manager
   - https://nginxproxymanager.com/
 type: application
-version: 4.0.12
+version: 4.0.13
 annotations:
   truecharts.org/catagories: |
     - networking

@@ -39,6 +39,7 @@ questions:
             type: string
             default: "-Xms6144m -Xmx8192m"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -63,7 +64,6 @@ questions:
                               default: 25565
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

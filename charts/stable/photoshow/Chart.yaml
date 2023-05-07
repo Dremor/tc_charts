@@ -24,7 +24,7 @@ sources:
   - https://github.com/thibaud-rohmer/PhotoShow
   - https://github.com/linuxserver/docker-photoshow
 type: application
-version: 6.0.9
+version: 6.0.10
 annotations:
   truecharts.org/catagories: |
     - media

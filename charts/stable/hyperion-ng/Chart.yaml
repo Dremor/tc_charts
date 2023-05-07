@@ -19,7 +19,7 @@ name: hyperion-ng
 sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/hyperion-ng
   - https://github.com/hyperion-project/hyperion.ng
-version: 9.0.12
+version: 9.0.13
 annotations:
   truecharts.org/catagories: |
     - media

@@ -31,8 +31,8 @@ questions:
             type: string
             default: "100"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

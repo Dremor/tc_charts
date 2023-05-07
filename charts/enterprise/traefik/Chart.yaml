@@ -23,7 +23,7 @@ sources:
   - https://github.com/traefik/traefik-helm-chart
   - https://traefik.io/
 type: application
-version: 17.0.37
+version: 17.0.38
 annotations:
   truecharts.org/catagories: |
     - network

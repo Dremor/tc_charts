@@ -22,7 +22,7 @@ sources:
   - https://github.com/owntracks/recorder
   - https://github.com/owntracks/docker-recorder
 type: application
-version: 0.0.7
+version: 0.0.8
 annotations:
   truecharts.org/catagories: |
     - media

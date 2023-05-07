@@ -65,6 +65,7 @@ questions:
             type: boolean
             default: true
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -111,7 +112,6 @@ questions:
                               default: 27015
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

@@ -99,6 +99,7 @@ questions:
                   type: string
                   default: ""
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -123,7 +124,6 @@ questions:
                               default: 53842
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

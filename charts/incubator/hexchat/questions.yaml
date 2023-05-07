@@ -39,6 +39,7 @@ questions:
             type: string
             default: HexChat
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: Main Service
@@ -63,7 +64,6 @@ questions:
                               default: 10307
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

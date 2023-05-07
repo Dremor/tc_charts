@@ -11,6 +11,7 @@ questions:
 # Include{containerAdvanced}
 
 # Include{containerConfig}
+# Include{podOptions}
   - variable: domains
     group: "App Configuration"
     label: "Domains"
@@ -126,7 +127,6 @@ questions:
                               default: 53
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceList}

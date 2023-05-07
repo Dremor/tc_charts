@@ -96,8 +96,8 @@ questions:
             type: string
             default: en
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

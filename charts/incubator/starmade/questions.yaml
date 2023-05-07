@@ -69,6 +69,7 @@ questions:
             type: string
             default: "http://files.star-made.org/StarMade-Starter.jar"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -93,7 +94,6 @@ questions:
                               default: 4242
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

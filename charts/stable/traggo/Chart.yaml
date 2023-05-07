@@ -21,7 +21,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/traggo
   - https://github.com/traggo/server
 type: application
-version: 2.0.11
+version: 2.0.12
 annotations:
   truecharts.org/catagories: |
     - productivity

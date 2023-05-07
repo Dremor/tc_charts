@@ -22,7 +22,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/muse
   - https://github.com/codetheweb/muse
 type: application
-version: 0.0.3
+version: 0.0.4
 annotations:
   truecharts.org/catagories: |
     - media

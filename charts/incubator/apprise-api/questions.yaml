@@ -110,6 +110,7 @@ questions:
             default: 1
             min: 1
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: Main Service
@@ -134,7 +135,6 @@ questions:
                               default: 8000
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

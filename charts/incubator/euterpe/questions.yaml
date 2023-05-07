@@ -129,6 +129,7 @@ questions:
                         type: int
                         default: 1048576
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: Main Service
@@ -153,7 +154,6 @@ questions:
                               default: 9996
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

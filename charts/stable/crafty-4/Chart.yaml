@@ -23,7 +23,7 @@ sources:
   - https://craftycontrol.com/
   - https://gitlab.com/crafty-controller/crafty-4
 type: application
-version: 3.0.12
+version: 3.0.13
 annotations:
   truecharts.org/catagories: |
     - GameServers

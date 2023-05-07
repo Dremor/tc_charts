@@ -111,6 +111,7 @@ questions:
             type: string
             default: "http://checkip.amazonaws.com"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -177,7 +178,6 @@ questions:
                               default: 52100
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceList}

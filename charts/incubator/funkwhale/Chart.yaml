@@ -27,4 +27,4 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/incubator/funkwhale
   - https://funkwhale.audio/
 type: application
-version: 2.1.10
+version: 2.1.11

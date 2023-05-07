@@ -23,7 +23,7 @@ sources:
   - https://github.com/truecharts/charts/tree/master/charts/stable/automatic-music-downloader
   - https://github.com/RandomNinjaAtk/docker-amd
 type: application
-version: 5.0.11
+version: 5.0.12
 annotations:
   truecharts.org/catagories: |
     - media

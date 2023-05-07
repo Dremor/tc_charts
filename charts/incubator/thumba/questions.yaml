@@ -59,6 +59,7 @@ questions:
             type: string
             default: "http://localhost"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: Main Service
@@ -83,7 +84,6 @@ questions:
                               default: 10598
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

@@ -28,8 +28,8 @@ questions:
             valid_chars: '^\/([a-zA-Z0-9._-]+(\s?[a-zA-Z0-9._-]+|\/?))+$'
             default: ""
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceList}

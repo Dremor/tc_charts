@@ -16,6 +16,7 @@ questions:
 # Include{containerAdvanced}
 
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
 # Include{serviceMain}
 # Include{serviceSelectorLoadBalancer}
@@ -34,7 +35,6 @@ questions:
                               default: 9117
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}
@@ -59,7 +59,6 @@ questions:
 # Include{ingressTraefik}
 # Include{ingressList}
 # Include{securityContextRoot}
-
               - variable: runAsUser
                 label: "runAsUser"
                 description: "The UserID of the user running the application"

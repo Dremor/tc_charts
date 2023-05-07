@@ -69,6 +69,7 @@ questions:
       attrs:
 # Include{fixedEnv}
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -129,7 +130,6 @@ questions:
                                     type: int
                                     default: CHARTPORT
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}

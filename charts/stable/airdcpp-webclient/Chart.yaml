@@ -23,7 +23,7 @@ sources:
   - https://airdcpp-web.github.io/
   - https://github.com/airdcpp-web/airdcpp-webclient
 type: application
-version: 6.0.12
+version: 6.0.13
 annotations:
   truecharts.org/catagories: |
     - media

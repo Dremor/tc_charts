@@ -33,6 +33,7 @@ questions:
             type: string
             default: "1920x1080"
 # Include{containerConfig}
+# Include{podOptions}
 # Include{serviceRoot}
         - variable: main
           label: "Main Service"
@@ -79,7 +80,6 @@ questions:
                               default: 5901
                               required: true
 # Include{serviceExpertRoot}
-            default: false
 # Include{serviceExpert}
 # Include{serviceList}
 # Include{persistenceRoot}
