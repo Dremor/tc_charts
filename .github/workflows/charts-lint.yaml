@@ -206,7 +206,22 @@ jobs:
         uses: helm/chart-testing-action@e8788873172cb653a90ca2e819d79d65a66d4e76 # v2.4.0
 
       - name: Run chart-testing (lint)
-        run: ct lint --config ".github/ct-lint.yaml" --charts "${{ matrix.chart }}" || ct lint --config ".github/ct-lint.yaml" --charts "${{ matrix.chart }}"
+        run: |
+          ct lint --config ".github/ct-lint.yaml" --charts "${{ matrix.chart }}" || ct lint --config ".github/ct-lint.yaml" --charts "${{ matrix.chart }}"
+          # TODO: Replace master with target branch or something, also move to a script
+          new=$(git diff master -- "${{ matrix.chart }}" | sed -nr 's/^\+version: (.*)$/\1/p')
+          old=$(git diff master -- "${{ matrix.chart }}" | sed -nr 's/^\-version: (.*)$/\1/p')
+
+          if [[ -z "$new" ]]; then
+            echo "❌ Chart version not changed, exiting..."
+            exit 1
+          fi
+
+          if [[ $(echo "$new\n$old" | sort -V -r | head -n1) != "$old" ]]; then
+            echo "✅ Chart version bumped, continuing..."
+          else
+            echo "❌ Chart version not bumped or downgraded, exiting..."
+          fi
 
   lint-charts3:
     needs:
