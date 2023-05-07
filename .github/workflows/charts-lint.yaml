@@ -209,9 +209,11 @@ jobs:
         run: |
           ct lint --config ".github/ct-lint.yaml" --charts "${{ matrix.chart }}" || ct lint --config ".github/ct-lint.yaml" --charts "${{ matrix.chart }}"
           # TODO: Replace master with target branch or something, also move to a script
-          new=$(git diff master -- "${{ matrix.chart }}" | sed -nr 's/^\+version: (.*)$/\1/p')
-          old=$(git diff master -- "${{ matrix.chart }}" | sed -nr 's/^\-version: (.*)$/\1/p')
+          new=$(git diff origin/master -- "${{ matrix.chart }}" | sed -nr 's/^\+version: (.*)$/\1/p')
+          old=$(git diff origin/master -- "${{ matrix.chart }}" | sed -nr 's/^\-version: (.*)$/\1/p')
 
+          echo "Old Chart Version: $old"
+          echo "New Chart Version: $new"
           if [[ -z "$new" ]]; then
             echo "❌ Chart version not changed, exiting..."
             exit 1
