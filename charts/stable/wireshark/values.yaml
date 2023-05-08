@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/wireshark
   pullPolicy: IfNotPresent
-  tag: 3.6.5@sha256:c3af44658288f122325e3ba51cab5a50ef82b98aff836063c4e9e29ef6d47d24
+  tag: v4.0.1@sha256:b92c0dc90036dff0860165a7a9021a17fd4f5f982f70c616382241183eb05af3
 
 securityContext:
   readOnlyRootFilesystem: false
