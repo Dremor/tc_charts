@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/libreoffice
   pullPolicy: IfNotPresent
-  tag: 7.2.7@sha256:a784b1be1bba519d820dd4a1cdf3c1603a7bb7bf24533ffba834c8dae63b84ae
+  tag: v7.3.7@sha256:58c023e85da6576424b3bb4f5b12bf3bbdd3a19840afd27fa3cd805973eaab5f
 
 securityContext:
   runAsNonRoot: false
