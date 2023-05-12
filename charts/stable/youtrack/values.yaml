@@ -1,6 +1,6 @@
 image:
   repository: tccr.io/truecharts/youtrack
-  tag: 2023.1.9031@sha256:c6d75ad8b9dab11db5443a3e58b926ea91253b46e55a6a5fda754e9b5d5d3f2e
+  tag: v2023.1.9570@sha256:005c84f7c19bdbad9f4ee19c05b44adc6f8e37b47d87cdf923fdb5ff07c12a85
   pullPolicy: IfNotPresent
 
 securityContext:
