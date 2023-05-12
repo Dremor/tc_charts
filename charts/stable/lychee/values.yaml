@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/lychee-laravel
   pullPolicy: IfNotPresent
-  tag: 4.7.3@sha256:4193a77faec43e2ed5560d8fa074b60d3bcc5c84fd5ad6e8a6947f0bcc808162
+  tag: v4.8.0@sha256:ed3b27be7c2ee6bbdb062fb25b1f6ab9cc78470a7423d883087b6818252dc79e
 
 securityContext:
   readOnlyRootFilesystem: false
