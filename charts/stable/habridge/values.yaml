@@ -1,7 +1,7 @@
 image:
   repository: tccr.io/truecharts/habridge
   pullPolicy: IfNotPresent
-  tag: v5.4.1@sha256:af6174691a09cd4ee2af9f1f0cba5a17d2a168e085e405149fd95870b1bdd15e
+  tag: v5.4.1@sha256:5d8d11eb44192405b240037dd1fbeec753ebaa38dba959849d1ad6a918e28e59
 
 securityContext:
   runAsNonRoot: false
