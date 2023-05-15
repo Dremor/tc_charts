@@ -1,6 +1,6 @@
 image:
   repository: tccr.io/truecharts/wger
-  tag: latest@sha256:f1f463a268a1d15c56d7ca5af22de75291a4a09d9111d6f6cdd45d9b7456a9b6
+  tag: latest@sha256:9f2bc8eafbb9fbd50d3f6760ddb0a2e81f391a8c848ca82ed79f2a20d87a6f22
   pullPolicy: IfNotPresent
 
 nginxImage:
